@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(../Assets/c884b59f9c84258104b4af31dfae0633.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+button {
+    border: solid 1px #141414;
+    background-color: #141414;
+    border-radius: 10px;    
+    height: 40px;
+    width: 72px;
+}
+
+header {
+    margin-top: 5%;
+}
+
+.Contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.Navigation {
+    display: flex;
+    align-items: center;
+    border: solid 1px #141414;
+    border-radius: 8px;
+    background-color: #141414;
+    width: 600px;
+    height: 40px;
+    margin-top: 16px;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.Navigation a {
+    justify-content: center;
+    gap: 4px;
+}
+
+.Navigation img {
+    width: 20px;
+    height: 20px;
+}
+
+.Main:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+.Crew:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+.Info {
+    background-color: #1e83f7;
+}
+
+.GitHub:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+.TechStack {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    gap: 8px;
+}
+
+.ContanerTechStack {
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: black;
+    width: 600px;
+    height: 208px;
+    margin-bottom: 4%
+}
+
+.ContanerTechStack ul {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5%;
+    gap: 24px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.ContanerTechStack li {
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #141414;
+    color: #2e2d2d;
+    width: 120px;
+    gap: 40px;
+}
+
+.ContanerSkills {
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: black;
+    width: 600px;
+    height: 256px;
+    margin-top: 4%;
+}
+
+.Skills {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    gap: 8px;
+}
+
+.ContanerSkills span {
+    font-size: 120%;
+    color: #2e2d2d;
+}
+
+.ContanerHobby {
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: black;
+    width: 600px;
+    height: 208px;
+    margin-top: 4%;
+}
+
+.Hobby {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    gap: 8px;
+}
+
+.ContanerHobby ul {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5%;
+    gap: 24px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.ContanerHobby li {
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #141414;
+    color: #2e2d2d;
+    width: 120px;
+    gap: 40px;
+}

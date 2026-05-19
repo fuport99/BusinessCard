@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(../Assets/c884b59f9c84258104b4af31dfae0633.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    margin-top: 5%;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+button {
+    border: solid 1px #141414;
+    background-color: #141414;
+    border-radius: 10px;    
+    height: 40px;
+    width: 72px;
+}
+
+.Contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.Navigation {
+    display: flex;
+    align-items: center;
+    border: solid 1px #141414;
+    border-radius: 8px;
+    background-color: #141414;
+    width: 600px;
+    height: 40px;
+    margin-top: 16px;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.Navigation a {
+    justify-content: center;
+    gap: 4px;
+}
+
+.Navigation img {
+    width: 20px;
+    height: 20px;
+}
+
+.Main:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+.Crew {
+    background-color: #1e83f7;
+}
+
+.Info:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+.GitHub:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+main {
+    background-color: black;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    width: 800px;
+    height: 680px;
+}
+
+.TeamProfile {
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: space-between;
+}
+
+.Firilial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    border: solid 1px orange;
+    border-radius: 20px;
+    background-color: #2e2d2d;
+    width: 360px;
+    height: 256px;
+    margin-bottom: 40px;
+}
+
+.Firilial img {
+    border: solid 1px black;
+    border-radius: 80px;
+    width: 120px;
+    height: 120px;
+}
+
+.Firilial hr {
+    margin-top: 10px;
+    width: 20px;
+}
+
+.Firilial span {
+    margin-top: 5px;
+}
+
+.Xiaoshuoo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    border: solid 1px orange;
+    border-radius: 20px;
+    background-color: #2e2d2d;
+    width: 360px;
+    height: 256px;
+    margin-bottom: 40px;
+}
+
+.Xiaoshuoo img {
+    border: solid 1px black;
+    border-radius: 80px;
+    width: 120px;
+    height: 120px;
+}
+
+.Xiaoshuoo hr {
+    margin-top: 10px;
+    width: 20px;
+}
+
+.Xiaoshuoo span {
+    margin-top: 5px;
+}
+
+.TeamProfileSecond {
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: space-between;
+}
+
+.Kalychiu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    border: solid 1px orange;
+    border-radius: 20px;
+    background-color: #2e2d2d;
+    width: 360px;
+    height: 256px;
+    margin-bottom: 40px;
+}
+
+.Kalychiu img {
+    border: solid 1px black;
+    border-radius: 80px;
+    width: 120px;
+    height: 120px;
+}
+
+.Kalychiu hr {
+    margin-top: 10px;
+    width: 20px;
+}
+
+.Kalychiu span {
+    margin-top: 5px;
+}

@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(../Assets/c884b59f9c84258104b4af31dfae0633.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+button {
+    border: solid 1px #141414;
+    background-color: #141414;
+    border-radius: 10px;    
+    height: 40px;
+    width: 72px;
+}
+
+header {
+    margin-top: 5%;
+}
+
+.Contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.Navigation {
+    display: flex;
+    align-items: center;
+    border: solid 1px #141414;
+    border-radius: 8px;
+    background-color: #141414;
+    width: 600px;
+    height: 40px;
+    margin-top: 16px;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.Navigation a {
+    justify-content: center;
+    gap: 4px;
+}
+
+.Navigation img {
+    width: 20px;
+    height: 20px;
+}
+
+.Main:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+.Crew:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+.Info:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+.GitHub {
+    background-color: #1e83f7;
+}
+
+main {
+    background-color: black;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    width: 400px;
+    height: 800px;
+}
+
+.ContanerInformation {
+    margin-left: 20%;
+}
+
+.MainAccount {
+    font-size: 120%;
+    margin-top: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+.GitStatus {
+    margin-top: 8%;
+    margin-left: 2%;
+    gap: 24px;
+    align-items: center;
+    display: flex;
+}
+
+.MainAccount hr {
+    border: solid 1px #1e83f7;
+    border-radius: 20px;
+    background-color: #1e83f7;
+    width: 2px;
+    height: 24px;
+}
+
+.Portfolio {
+    display: flex;
+    margin-top: 16px;
+    border: solid 1px #a8316b;
+    border-radius: 10px;
+    background-color: #a8316b;
+    width: 256px;
+    font-size: 150%;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.GitHubInformation {
+    display: block;
+    border: solid 1px #2e2d2d;
+    color: #2e2d2d;
+    border-radius: 20px;
+    margin-top: 16px;
+    width: 256px;
+    height: 56px;
+}
+
+.Project {
+    font-size: 200%;
+    text-align: center;
+    line-height: 480px;
+    margin-top: 16px;
+    display: block;
+    border: solid 1px #2e2d2d;
+    color: #2e2d2d;
+    border-radius: 20px;
+    width: 256px;
+    height: 480px;
+    box-shadow: 1px 1px 5px 1px #2e2d2d;
+}
+
+.PartnerAccount {
+    font-size: 120%;
+    margin-top: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+.PartnerAccount hr {
+    border: solid 1px #1e83f7;
+    border-radius: 20px;
+    background-color: #1e83f7;
+    width: 2px;
+    height: 24px;
+}
+
+.PartnerPortfolio {
+    display: flex;
+    margin-top: 16px;
+    border: solid 1px #a8316b;
+    border-radius: 10px;
+    background-color: #a8316b;
+    width: 256px;
+    font-size: 150%;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}

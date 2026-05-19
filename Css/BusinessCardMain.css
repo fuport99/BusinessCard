@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(../Assets/c884b59f9c84258104b4af31dfae0633.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    margin-top: 5%;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+button {
+    border: solid 1px #141414;
+    background-color: #141414;
+    border-radius: 10px;    
+    height: 40px;
+    width: 72px;
+}
+
+.Contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.Navigation {
+    display: flex;
+    align-items: center;
+    border: solid 1px #141414;
+    border-radius: 8px;
+    background-color: #141414;
+    width: 600px;
+    height: 40px;
+    margin-top: 16px;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.Navigation a {
+    justify-content: center;
+    gap: 4px;
+}
+
+.Navigation img {
+    width: 20px;
+    height: 20px;
+}
+
+.Main {
+    background-color: #1e83f7;
+}
+
+.Crew:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+.Info:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+.GitHub:hover {
+    transition: width .1s linear .1s;
+    border: solid 1px #2e2d2d;
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    height: 40px;
+    width: 72px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Information {
+    display: flex;
+}
+
+.Profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    border: solid 1px orange;
+    border-radius: 20px;
+    background-color: #2e2d2d;
+    width: 400px;
+    height: 256px;
+    margin-bottom: 40px;
+}
+
+.Profile img {
+    border: solid 1px black;
+    border-radius: 80px;
+    width: 120px;
+    height: 120px;
+}
+
+.Profile span {
+    margin-top: 5px;
+}
+
+.Profile hr {
+    margin-top: 10px;
+    width: 20px;
+}
+
+.About {
+    border: solid 1px #2e2d2d;
+    border-radius: 20px;
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    margin-top: 40px;
+    margin-right: 60px;
+    padding-left: 2%;
+}
+
+.AboutMe {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.AboutMe img {
+    width: 24px;
+    height: 24px;
+}
+
+.Music {
+    border: solid 1px #2e2d2d;
+    border-radius: 20px;
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 60px;
+    padding-left: 2%;
+}
+
+.MyMusic {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
