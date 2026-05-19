@@ -171,3 +171,17 @@ main {
     align-items: center;
     gap: 4px;
 }
+
+.Mus {
+    font-size: 200%;
+    text-align: center;
+    line-height: 128px;
+    margin-top: 16px;
+    display: block;
+    border: solid 1px #2e2d2d;
+    color: #2e2d2d;
+    border-radius: 20px;
+    width: 360px;
+    height: 128px;
+    box-shadow: 1px 1px 5px 1px #2e2d2d;
+}
